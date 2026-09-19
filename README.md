@@ -1,5 +1,7 @@
 # Awesome M5Stack Arduino
 
+[日本語版はこちら / Japanese](README.ja.md)
+
 Curated links for developing with [M5Stack](https://m5stack.com/) devices using Arduino (and PlatformIO where noted). For new projects, prefer **M5Unified + M5GFX**; the classic `M5Stack` library remains useful for older Core examples.
 
 ## Official
