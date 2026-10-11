@@ -2,14 +2,14 @@
 
 [日本語版はこちら / Japanese](README.ja.md)
 
-Curated links for developing with [M5Stack](https://m5stack.com/) devices using Arduino (and PlatformIO where noted). For new projects, prefer **M5Unified + M5GFX**; the classic `M5Stack` library remains useful for older Core examples.
+Curated links for developing with [M5Stack](https://m5stack.com/) devices using Arduino (and PlatformIO where noted). For new projects, prefer **M5Unified + M5GFX**; the classic `M5Stack` library remains useful for older Core examples. ⭐ badges show live GitHub star counts (via shields.io).
 
 ## Official
 
 - [m5-docs](https://docs.m5stack.com/) — Official documentation (products, Arduino, APIs)
 - [Arduino Board Manager](https://docs.m5stack.com/en/arduino/arduino_board) — Install boards with Additional Board Manager URL `https://static-cdn.m5stack.com/resource/arduino/package_m5stack_index.json`
 - [Arduino Library Manager](https://docs.m5stack.com/en/arduino/arduino_library) — Install M5 driver libraries from the IDE
-- [Getting started](https://docs.m5stack.com/en/start) — Overview of Arduino and other M5Stack toolchains
+- [Getting started](https://docs.m5stack.com/en/start) — M5Stack Developer Center landing page (Arduino, UiFlow2, ESP-IDF and other toolchains)
 - [M5Unified Hello World](https://docs.m5stack.com/en/arduino/m5unified/helloworld) — First sketch with the unified API
 - [PlatformIO + M5Unified](https://docs.m5stack.com/en/arduino/m5unified/intro_vscode) — VS Code / PlatformIO setup ([日本語](https://docs.m5stack.com/ja/arduino/m5unified/intro_vscode))
 - [Release History](https://docs.m5stack.com/en/history) — New product launches by date (check here for newly supported boards and Units)
@@ -17,25 +17,28 @@ Curated links for developing with [M5Stack](https://m5stack.com/) devices using 
 
 ## Libraries
 
-- [M5Unified](https://github.com/m5stack/M5Unified) — Recommended unified driver for most M5 controllers (LCD, buttons, touch, audio, IMU, power, RTC) ([releases](https://github.com/m5stack/M5Unified/releases))
-- [M5GFX](https://github.com/m5stack/M5GFX) — Graphics library used by M5Unified (fonts, canvas, displays)
-- [M5Stack (legacy)](https://github.com/m5stack/M5Stack) — Classic Arduino library for M5Stack Core / Basic / Gray / Fire
-- [M5UnitUnified](https://github.com/m5stack/M5UnitUnified) — Unified drivers for Unit-series peripherals
-- [M5Cardputer](https://github.com/m5stack/M5Cardputer) — Board library (keyboard etc.) for Cardputer and Cardputer-Adv, built on M5Unified
-- [StackChan-BSP](https://github.com/m5stack/StackChan-BSP) — Arduino board support package for the official StackChan desktop robot (CoreS3-based; [docs](https://docs.m5stack.com/en/StackChan))
-- [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) — Arduino and PlatformIO TFT library optimised for STM32, ESP8266, ESP32, and RP2040
+- [M5Unified](https://github.com/m5stack/M5Unified) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5Unified?style=flat&label=%E2%AD%90) — Recommended unified driver for most M5 controllers (LCD, buttons, touch, audio, IMU, power, RTC) ([releases](https://github.com/m5stack/M5Unified/releases))
+- [M5GFX](https://github.com/m5stack/M5GFX) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5GFX?style=flat&label=%E2%AD%90) — Graphics library used by M5Unified (fonts, canvas, displays)
+- [M5Stack (legacy)](https://github.com/m5stack/M5Stack) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5Stack?style=flat&label=%E2%AD%90) — Classic Arduino library for M5Stack Core / Basic / Gray / Fire
+- [M5UnitUnified](https://github.com/m5stack/M5UnitUnified) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5UnitUnified?style=flat&label=%E2%AD%90) — Unified drivers for Unit-series peripherals
+- [M5Cardputer](https://github.com/m5stack/M5Cardputer) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5Cardputer?style=flat&label=%E2%AD%90) — Board library (keyboard etc.) for Cardputer and Cardputer-Adv, built on M5Unified
+- [StackChan-BSP](https://github.com/m5stack/StackChan-BSP) ![GitHub stars](https://img.shields.io/github/stars/m5stack/StackChan-BSP?style=flat&label=%E2%AD%90) — Arduino board support package for the official StackChan desktop robot (CoreS3-based; [docs](https://docs.m5stack.com/en/StackChan))
+- [M5Module-LLM](https://github.com/m5stack/M5Module-LLM) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5Module-LLM?style=flat&label=%E2%AD%90) — Arduino library for the Module LLM (M140) offline AI module ([docs](https://docs.m5stack.com/en/module/Module-LLM))
+- [m5stack-avatar](https://github.com/stack-chan/m5stack-avatar) ![GitHub stars](https://img.shields.io/github/stars/stack-chan/m5stack-avatar?style=flat&label=%E2%AD%90) — Animated avatar-face library (the original Stack-chan face; works with M5Unified)
+- [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) ![GitHub stars](https://img.shields.io/github/stars/Bodmer/TFT_eSPI?style=flat&label=%E2%AD%90) — Arduino and PlatformIO TFT library optimised for STM32, ESP8266, ESP32, and RP2040
 
 ## Examples
 
 - [M5Unified examples](https://github.com/m5stack/M5Unified/tree/master/examples) — Basic and Advanced sketches (display, button, touch, speaker, mic, IMU, RTC)
 - [M5GFX examples](https://github.com/m5stack/M5GFX/tree/master/examples) — Graphics demos
 - [M5Stack library examples](https://github.com/m5stack/M5Stack/tree/master/examples) — Legacy Core examples (Basics, Modules, and more)
-- [lv_m5_emulator](https://github.com/m5stack/lv_m5_emulator) — Run LVGL (v8 / v9) UIs for M5 devices on your PC via PlatformIO + M5GFX (Fire, Core2, CoreS3, Dial, Tab5; EEZ Studio support)
+- [lv_m5_emulator](https://github.com/m5stack/lv_m5_emulator) ![GitHub stars](https://img.shields.io/github/stars/m5stack/lv_m5_emulator?style=flat&label=%E2%AD%90) — Run LVGL (v8 / v9) UIs for M5 devices on your PC via PlatformIO + M5GFX (Fire, Core2, CoreS3, Dial, Tab5; EEZ Studio support)
+- [StackChan](https://github.com/m5stack/StackChan) ![GitHub stars](https://img.shields.io/github/stars/m5stack/StackChan?style=flat&label=%E2%AD%90) — Official open-source StackChan resources: robot firmware, remote-controller firmware, iOS/Android app and server source
 
 ## Hardware & schematics
 
-- [M5_Hardware](https://github.com/m5stack/M5_Hardware) — Current open hardware repository (PCB designs, 2D/3D structure files, KiCad symbol/footprint/3D libraries)
-- [M5-Schematic](https://github.com/m5stack/M5-Schematic) — Schematics for Cores, Modules, and Units (archived, still useful)
+- [M5_Hardware](https://github.com/m5stack/M5_Hardware) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5_Hardware?style=flat&label=%E2%AD%90) — Current open hardware repository (PCB designs, 2D/3D structure files, KiCad symbol/footprint/3D libraries)
+- [M5-Schematic](https://github.com/m5stack/M5-Schematic) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5-Schematic?style=flat&label=%E2%AD%90) — Schematics for Cores, Modules, and Units (archived, still useful)
 - [M5 Core Basic schematic (2017)](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf) — Original Core/Basic PDF
 - [Basic product docs](https://docs.m5stack.com/en/core/basic) — Pin maps and current schematic links on m5-docs
 

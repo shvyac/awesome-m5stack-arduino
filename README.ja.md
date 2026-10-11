@@ -2,7 +2,7 @@
 
 [English README](README.md)
 
-[M5Stack](https://m5stack.com/) デバイスを Arduino（および記載がある場合は PlatformIO）で開発するための厳選リンク集。新規プロジェクトでは **M5Unified + M5GFX** を推奨。クラシックな `M5Stack` ライブラリは、古い Core 向けサンプルに引き続き有用です。
+[M5Stack](https://m5stack.com/) デバイスを Arduino（および記載がある場合は PlatformIO）で開発するための厳選リンク集。新規プロジェクトでは **M5Unified + M5GFX** を推奨。クラシックな `M5Stack` ライブラリは、古い Core 向けサンプルに引き続き有用です。⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。
 
 ## 目次
 
@@ -19,7 +19,7 @@
 - [m5-docs](https://docs.m5stack.com/) — 公式ドキュメント（製品、Arduino、API）
 - [Arduino Board Manager](https://docs.m5stack.com/en/arduino/arduino_board) — Additional Board Manager URL `https://static-cdn.m5stack.com/resource/arduino/package_m5stack_index.json` でボードをインストール
 - [Arduino Library Manager](https://docs.m5stack.com/en/arduino/arduino_library) — IDE から M5 ドライバライブラリをインストール
-- [Getting started](https://docs.m5stack.com/en/start) — Arduino およびその他の M5Stack ツールチェーンの概要
+- [Getting started](https://docs.m5stack.com/en/start) — M5Stack Developer Center のトップページ（Arduino、UiFlow2、ESP-IDF などのツールチェーン）
 - [M5Unified Hello World](https://docs.m5stack.com/en/arduino/m5unified/helloworld) — 統合 API による最初のスケッチ
 - [PlatformIO + M5Unified](https://docs.m5stack.com/en/arduino/m5unified/intro_vscode) — VS Code / PlatformIO のセットアップ（[日本語](https://docs.m5stack.com/ja/arduino/m5unified/intro_vscode)）
 - [Release History](https://docs.m5stack.com/en/history) — 新製品の発売履歴（新たに対応したボードや Unit の確認に）
@@ -27,25 +27,28 @@
 
 ## ライブラリ
 
-- [M5Unified](https://github.com/m5stack/M5Unified) — ほとんどの M5 コントローラ向け推奨統合ドライバ（LCD、ボタン、タッチ、オーディオ、IMU、電源、RTC）（[リリース](https://github.com/m5stack/M5Unified/releases)）
-- [M5GFX](https://github.com/m5stack/M5GFX) — M5Unified が使うグラフィックスライブラリ（フォント、キャンバス、ディスプレイ）
-- [M5Stack (legacy)](https://github.com/m5stack/M5Stack) — M5Stack Core / Basic / Gray / Fire 向けクラシック Arduino ライブラリ
-- [M5UnitUnified](https://github.com/m5stack/M5UnitUnified) — Unit シリーズ周辺機器向け統合ドライバ
-- [M5Cardputer](https://github.com/m5stack/M5Cardputer) — Cardputer / Cardputer-Adv 向けボードライブラリ（キーボード等、M5Unified ベース）
-- [StackChan-BSP](https://github.com/m5stack/StackChan-BSP) — 公式スタックチャン（StackChan）（CoreS3 ベースのデスクトップロボット）向け Arduino ボードサポートパッケージ（[ドキュメント](https://docs.m5stack.com/en/StackChan)）
-- [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) — STM32、ESP8266、ESP32、RP2040 向けに最適化された Arduino / PlatformIO TFT ライブラリ
+- [M5Unified](https://github.com/m5stack/M5Unified) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5Unified?style=flat&label=%E2%AD%90) — ほとんどの M5 コントローラ向け推奨統合ドライバ（LCD、ボタン、タッチ、オーディオ、IMU、電源、RTC）（[リリース](https://github.com/m5stack/M5Unified/releases)）
+- [M5GFX](https://github.com/m5stack/M5GFX) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5GFX?style=flat&label=%E2%AD%90) — M5Unified が使うグラフィックスライブラリ（フォント、キャンバス、ディスプレイ）
+- [M5Stack (legacy)](https://github.com/m5stack/M5Stack) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5Stack?style=flat&label=%E2%AD%90) — M5Stack Core / Basic / Gray / Fire 向けクラシック Arduino ライブラリ
+- [M5UnitUnified](https://github.com/m5stack/M5UnitUnified) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5UnitUnified?style=flat&label=%E2%AD%90) — Unit シリーズ周辺機器向け統合ドライバ
+- [M5Cardputer](https://github.com/m5stack/M5Cardputer) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5Cardputer?style=flat&label=%E2%AD%90) — Cardputer / Cardputer-Adv 向けボードライブラリ（キーボード等、M5Unified ベース）
+- [StackChan-BSP](https://github.com/m5stack/StackChan-BSP) ![GitHub stars](https://img.shields.io/github/stars/m5stack/StackChan-BSP?style=flat&label=%E2%AD%90) — 公式スタックチャン（StackChan）（CoreS3 ベースのデスクトップロボット）向け Arduino ボードサポートパッケージ（[ドキュメント](https://docs.m5stack.com/en/StackChan)）
+- [M5Module-LLM](https://github.com/m5stack/M5Module-LLM) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5Module-LLM?style=flat&label=%E2%AD%90) — オフライン AI モジュール Module LLM（M140）用 Arduino ライブラリ（[ドキュメント](https://docs.m5stack.com/en/module/Module-LLM)）
+- [m5stack-avatar](https://github.com/stack-chan/m5stack-avatar) ![GitHub stars](https://img.shields.io/github/stars/stack-chan/m5stack-avatar?style=flat&label=%E2%AD%90) — アニメーションするアバター顔ライブラリ（元祖スタックチャンの顔、M5Unified 対応）
+- [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) ![GitHub stars](https://img.shields.io/github/stars/Bodmer/TFT_eSPI?style=flat&label=%E2%AD%90) — STM32、ESP8266、ESP32、RP2040 向けに最適化された Arduino / PlatformIO TFT ライブラリ
 
 ## サンプル
 
 - [M5Unified examples](https://github.com/m5stack/M5Unified/tree/master/examples) — Basic / Advanced スケッチ（ディスプレイ、ボタン、タッチ、スピーカー、マイク、IMU、RTC）
 - [M5GFX examples](https://github.com/m5stack/M5GFX/tree/master/examples) — グラフィックスデモ
 - [M5Stack library examples](https://github.com/m5stack/M5Stack/tree/master/examples) — レガシー Core 向けサンプル（Basics、Modules ほか）
-- [lv_m5_emulator](https://github.com/m5stack/lv_m5_emulator) — M5 デバイス向け LVGL（v8 / v9）UI を PlatformIO + M5GFX で PC 上に表示するエミュレータ（Fire、Core2、CoreS3、Dial、Tab5、EEZ Studio 対応）
+- [lv_m5_emulator](https://github.com/m5stack/lv_m5_emulator) ![GitHub stars](https://img.shields.io/github/stars/m5stack/lv_m5_emulator?style=flat&label=%E2%AD%90) — M5 デバイス向け LVGL（v8 / v9）UI を PlatformIO + M5GFX で PC 上に表示するエミュレータ（Fire、Core2、CoreS3、Dial、Tab5、EEZ Studio 対応）
+- [StackChan](https://github.com/m5stack/StackChan) ![GitHub stars](https://img.shields.io/github/stars/m5stack/StackChan?style=flat&label=%E2%AD%90) — 公式スタックチャンのオープンソース一式（ロボット本体ファームウェア、リモコンファームウェア、iOS/Android アプリ、サーバーのソース）
 
 ## ハードウェアと回路図
 
-- [M5_Hardware](https://github.com/m5stack/M5_Hardware) — 現行のオープンハードウェアリポジトリ（PCB 設計、2D/3D 構造ファイル、KiCad シンボル／フットプリント／3D ライブラリ）
-- [M5-Schematic](https://github.com/m5stack/M5-Schematic) — Core / Module / Unit の回路図（アーカイブ済みだが今も有用）
+- [M5_Hardware](https://github.com/m5stack/M5_Hardware) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5_Hardware?style=flat&label=%E2%AD%90) — 現行のオープンハードウェアリポジトリ（PCB 設計、2D/3D 構造ファイル、KiCad シンボル／フットプリント／3D ライブラリ）
+- [M5-Schematic](https://github.com/m5stack/M5-Schematic) ![GitHub stars](https://img.shields.io/github/stars/m5stack/M5-Schematic?style=flat&label=%E2%AD%90) — Core / Module / Unit の回路図（アーカイブ済みだが今も有用）
 - [M5 Core Basic schematic (2017)](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf) — オリジナル Core/Basic の PDF
 - [Basic product docs](https://docs.m5stack.com/en/core/basic) — m5-docs 上のピンマップと現行回路図リンク
 
